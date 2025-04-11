@@ -113,7 +113,7 @@ jobs:
       
       - name: Snyk Container monitor
         run: |
-          snyk container monitor ${{ secrets.DOCKERHUB_USERNAME }}/devsecops_project_1:${{ github.sha }} --file=./Dockerfile
+          snyk container monitor ${{ secrets.DOCKERHUB_USERNAME }}/devsecops_project:${{ github.sha }} --file=./Dockerfile
         working-directory: ./application
       
       - name: Snyk to check for vulnerabilities in docker image
