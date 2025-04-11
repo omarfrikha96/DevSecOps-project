@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: marfr96/devsecops_project:cad8412c38b6e20cf772a32a1f02d395eeadf054
+        image: omarfr96/devsecops_project:6a60644b5e3b112585dce5bc4a91e626523408e1
         ports:
         - containerPort: 5000
         resources:
